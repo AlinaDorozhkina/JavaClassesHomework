@@ -22,7 +22,7 @@ public class FirstHomework {
         checkLeapYear(2020);
 
     }
-
+    // task2
     public static void initializeVariables (){
         int surfaceArea = 510072000;
         short coreRadius =3485;
@@ -52,8 +52,9 @@ public class FirstHomework {
     public static boolean isAmountIncludedInRange (int a, int b){
         if (a+b>=10 && a+b<=20){
             return true;
+        } else {
+            return false;
         }
-        return false;
     }
     //task 5
     public static void checkPositiveOrNegative (int number){
